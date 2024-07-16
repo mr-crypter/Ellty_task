@@ -4,7 +4,7 @@ Welcome to the Ellty Task Assignment repository! This project includes a web app
 
 ## Live Demo
 
-Check out the live demo [here](https://ellty-task-assignment.netlify.app/).
+Check out the live demo [here](https://ellty-task-assginment.netlify.app/).
 
 ## Overview
 
