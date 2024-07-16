@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 160px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin: 10px 0;
+}
+
+.checkbox-container::-webkit-scrollbar {
+    display: none;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container > label {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0;
+    flex-shrink: 0;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+}
+
+input[type="checkbox"]:checked {
+    transform: scale(1.1); 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+button.done-button {
+    background-color: #FFCC33;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button.done-button:hover {
+    background-color: #ffbb00;
+}
